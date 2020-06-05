@@ -1,0 +1,55 @@
+.wrapper{
+    width: 70%;
+    max-height: 100vh;
+    background: #eeeeee;
+    transform: translateX(-10%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+.messages{
+    width: 50%;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+}
+
+.input textarea{
+    resize: none;
+    width: 700px;
+    height: 50px;
+    display: block;
+    outline: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #e6e6e6, #eeeeee);
+    box-shadow:  20px 20px 60px #d9d9d9, 
+             -20px -20px 60px #ffffff;
+}
+
+.input button {
+    margin-left: 1rem;
+    cursor: pointer;
+    border: transparent;
+    width: 70px;
+    height: 70px;
+    color: black;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffffff, #d6d6d6);
+    box-shadow:  9px 9px 16px #bcbcbc, 
+                 -9px -9px 16px #ffffff;
+    outline: none;
+    transition: .3s;
+}
+
+.input button:active{
+    box-shadow: none;
+}

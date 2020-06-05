@@ -1,0 +1,9 @@
+.message{
+    padding: 20px 40px;
+    background: #eeeeee;
+    box-shadow:  11px 11px 24px #cccccc, 
+                 -11px -11px 24px #ffffff;
+    display: table;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+}

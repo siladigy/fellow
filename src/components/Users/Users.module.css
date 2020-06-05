@@ -1,0 +1,55 @@
+.wrapper{
+    width: 70%;
+    height: 100vh;
+    overflow: scroll;
+    background: #000;
+    color: white;
+}
+
+.users{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.user{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.user img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.name{
+    background: white;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+.pagination{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagination span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin: 2rem .5rem;
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.selected_page{
+    color: black;
+    background: white;
+}

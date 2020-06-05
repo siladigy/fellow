@@ -1,0 +1,34 @@
+.posts{
+    width: 70%;
+    height: 100vh;
+    background: rgba(231, 231, 231, 0.062);
+    transform: translateX(-10%);
+}
+
+.input{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.input textarea{
+    width: 700px;
+    height: 60px;
+    padding: 10px;
+    font-size: 20px;
+    resize: none;
+    outline: none;
+    border: none;
+}
+
+.button{
+    position: absolute;
+    right: 0;
+}
+
+.posts_wrap{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}

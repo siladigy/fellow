@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    width: 85%;
+}
+
+.dialogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 300px;
+}
+
+.block{
+    position: relative;
+    width: 400px;
+    height: 900px;
+    padding: 20px;
+    background: rgb(37, 37, 37);
+    overflow: hidden;
+    z-index: 3;
+    overflow: scroll;
+}

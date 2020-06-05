@@ -1,0 +1,33 @@
+.dialog{
+    display: flex;
+    background: rgba(219, 219, 219, 0.281);
+    padding: 10px;
+    margin: 15px 0;
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: .3s;
+    text-decoration: none;
+    color: black;
+}
+
+.dialog:hover{
+    border: 3px solid #d0ac7a;
+}
+
+.photo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background: #d0ac7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+
+.name{
+    font-size: 20px;
+    margin-left: 2rem;
+    color: white;
+}

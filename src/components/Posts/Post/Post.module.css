@@ -1,0 +1,14 @@
+.post{
+    background: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    white-space: pre;
+    border-radius: 30px;
+    background: #2e2e2e;
+    box-shadow:  8px 8px 15px #171717, 
+             -8px -8px 15px #454545;
+}
