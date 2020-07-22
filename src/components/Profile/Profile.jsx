@@ -5,7 +5,6 @@ import profile from './../../images/profile.png'
 import background from './../../images/bg.jpg'
 
 const Profile = (props) => {
-    debugger
     if(!props.profile) {
         return <></>
     }

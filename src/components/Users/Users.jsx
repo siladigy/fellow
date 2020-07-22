@@ -2,6 +2,8 @@ import React from 'react'
 import classes from './Users.module.css'
 import image from './../../images/profile.png'
 import { NavLink } from 'react-router-dom';
+import axios from 'axios';
+import { usersApi } from './../../api/api'
 
 let Users = (props) => {
 
@@ -29,8 +31,12 @@ let Users = (props) => {
                 <div className={classes.name}>{user.name}</div>
                 <div className={classes.name}>
                     {user.followed 
-                    ? <button onClick={ () => {props.unfollow(user.id)}}>unfollow</button> 
-                    : <button onClick={ () => {props.follow(user.id)}}>follow</button>}
+                    ? <button disabled={false} onClick={ () => {
+                        props.unfollowUser(user.id)
+                    }}>unfollow</button> 
+                    : <button disabled={false} onClick={ () => {
+                        props.followUser(user.id)
+                    }}>follow</button>}
                 </div>
             </div>)}
         </div>
